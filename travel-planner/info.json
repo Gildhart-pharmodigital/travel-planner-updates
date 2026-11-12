@@ -1,12 +1,12 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.3.0",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.3.0.zip",
+  "version": "1.4.0",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.4.0.zip",
   "requires": "6.0",
   "requires_php": "7.4",
   "released": "2026-11-12",
-  "sha256": "8ba9957395244112543adaf532feb96d644fc4154ec4e0ad65c4102499166be1",
-  "size": 618868,
-  "changelog": "<ul><li>The plugin updates itself, as a plugin from wordpress.org does. Its header names Gildhart's public updates file (<code>Update URI</code>), WordPress (5.8 and later) is offered each new version there, with each month's guidance, and installs it by itself; Travel Planner &gt; Settings &gt; Updates can turn that off, and says when WordPress on the site installs nothing by itself. Only a zip in Gildhart's updates repository, for exactly the version named, is ever offered. \"View details\" in Plugins shows the version's notes.</li><li>Settings, prices and notices are kept across an update, as they always were: they live in the site's database and the theme, never in the plugin's folder.</li><li><code>tools/publish_update.py</code> writes a release into the updates repository; the release workflow runs it when a version is released.</li></ul>"
+  "sha256": "e92e43df6190dda7b03fe9833aecdedce590d25d7bf04bf8f358e235ac4868bc",
+  "size": 630375,
+  "changelog": "<ul><li>Country guides: <code>[travel_guide country=\"thailand\"]</code> puts on a guide page the country's vaccines at this site's prices (a dose each), how far ahead to start each, the certificate, yellow fever centre, malaria and outbreak-notice facts, and the booking. It is drawn on the server from the same pack and settings as the planner's card, which it matches word for word, so every guide is up to date with each month's guidance. <code>part=\"vaccines\"</code>, <code>\"before\"</code> and <code>\"book\"</code> let the writer's own words sit between the pieces.</li><li>A published page carrying it becomes that country's guide: the planner links it under the box and on the country's card from the moment it is published (found when the page is saved, in its content or Elementor's, or the first time it is shown, for a theme template). A guide named in the settings still wins, a draft is never linked, and the page cache is cleared when a guide comes or goes. A guide's Book button finds the planner page's booking.</li><li>Country look-ups: which countries visitors open in the planner, counted by month, keeping only the country and the month (no cookie, no address, nothing about the visitor; nobody signed in, no crawler, no other site, nothing in preview). Travel Planner &gt; Look-ups shows the counts, the most looked-up countries with no guide yet, and a line for the privacy notice. Last month's five most looked-up countries, names only, are public for the monthly report unless the settings say not; the live check reads them and the client's monthly email names them.</li></ul>"
 }
