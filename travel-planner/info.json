@@ -1,0 +1,12 @@
+{
+  "name": "Travel Planner by Gildhart",
+  "slug": "gildhart-travel-planner",
+  "version": "1.3.0",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.3.0.zip",
+  "requires": "6.0",
+  "requires_php": "7.4",
+  "released": "2026-11-12",
+  "sha256": "8ba9957395244112543adaf532feb96d644fc4154ec4e0ad65c4102499166be1",
+  "size": 618868,
+  "changelog": "<ul><li>The plugin updates itself, as a plugin from wordpress.org does. Its header names Gildhart's public updates file (<code>Update URI</code>), WordPress (5.8 and later) is offered each new version there, with each month's guidance, and installs it by itself; Travel Planner &gt; Settings &gt; Updates can turn that off, and says when WordPress on the site installs nothing by itself. Only a zip in Gildhart's updates repository, for exactly the version named, is ever offered. \"View details\" in Plugins shows the version's notes.</li><li>Settings, prices and notices are kept across an update, as they always were: they live in the site's database and the theme, never in the plugin's folder.</li><li><code>tools/publish_update.py</code> writes a release into the updates repository; the release workflow runs it when a version is released.</li></ul>"
+}
