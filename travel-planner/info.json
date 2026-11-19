@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.8.1",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.8.1.zip",
+  "version": "1.8.2",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.8.2.zip",
   "requires": "6.0",
   "requires_php": "7.4",
   "released": "2026-11-19",
-  "sha256": "5afc350f85c0a74af067be2be5eb56ab3777df85e32afebab5ebd625c973f1a3",
-  "size": 674392,
-  "changelog": "<ul><li>A jump to the planner lands below a sticky header that sits under a banner. \"Check What Vaccines You Need\" and a link with <code>?going=&lt;country&gt;</code> put the planner's top, or its card, under such a header: on arrival the header is below the banner, so the planner did not count it. A sticky header is now measured where it sticks (its own <code>top</code>), not where it is when the page opens. Found on Chislehurst Pharmacy Group's page, 19 November 2026.</li></ul>",
+  "sha256": "e94f28443a1756567889a218d367fa7394cda16766f72da921cd8946ba645a73",
+  "size": 674857,
+  "changelog": "<ul><li>The whole of a vaccine's card is now the way on, not only its name. Where the pharmacy has its own page about the vaccine, a tap anywhere on the card goes there, as the name does; where it has none, a tap on the card goes to the booking. A vaccine the pharmacy does not give goes nowhere. The same in country guides. Visitors were tapping the cards and nothing happened.</li><li>A card with no page adds no words: its vaccine's name stays plain text, and the link to the booking is named for a screen reader only (\"Book a travel consultation (Rabies (pre-exposure))\").</li></ul>",
   "revoked": []
 }
