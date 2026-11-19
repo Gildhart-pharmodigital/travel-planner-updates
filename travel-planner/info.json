@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.8.0",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.8.0.zip",
+  "version": "1.8.1",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.8.1.zip",
   "requires": "6.0",
   "requires_php": "7.4",
-  "released": "2026-11-15",
-  "sha256": "1518f9be7fd69f927c4d838a30cc36dc6729850a29db7b3e675b41fb712923bd",
-  "size": 674244,
-  "changelog": "<ul><li>Email through Brevo. Travel Planner &gt; Email connects the planner to the pharmacy's own Brevo account with an API key. The emails the planner sends a visitor (the reminder's confirmation and the reminder itself) then go through Brevo, from an address on the pharmacy's own domain and signed as it, once Brevo says that domain is authenticated. Until then, and whenever Brevo refuses an email or cannot be reached, they go the site's own way, so none is lost.</li><li>The screen says whose account it is, its plan and what it has left to send, whether it is ready to send, and shows the DNS records Brevo is still waiting for, each with whether it was found. \"Send a test email\" tries it; \"Check again\" looks once the records are in.</li><li>The contacts list in Brevo. Someone who ticks \"also email me travel health news and offers\" is added to the pharmacy's Brevo list with their first name, the country, the travel date and the day they agreed (FIRSTNAME, TRIP_COUNTRY, TRIP_DATE, AGREED_ON), so the pharmacy's emails and sequences there can be about their trip. Someone who asked for a reminder alone is never made a contact. People already on the list when Brevo is connected are added at the next daily run, and anything Brevo could not take waits for it.</li><li>Leaving is the same on both sides. Someone who leaves by the planner's link is taken off the list in Brevo and marked there as not to be emailed; someone who unsubscribes from an email in Brevo is moved to \"Asked to stop\" at the next daily run; ticking the box again subscribes them again. \"Erase Personal Data\" removes what the planner put in Brevo, and never a contact who is on another of the pharmacy's lists.</li><li>The API key is a secret: it is kept apart from the planner's settings (or as <code>GTP_BREVO_KEY</code> in wp-config.php), so it is never on a page, never in \"Copy these settings to another site\", never taken from an import or a site's file, and the screen shows only its last four characters. Removing the plugin removes it; nothing in the Brevo account is touched.</li><li>With no key, nothing changes and nothing is sent to Brevo. The line for the site's privacy notice is on the screen.</li></ul>",
+  "released": "2026-11-19",
+  "sha256": "5afc350f85c0a74af067be2be5eb56ab3777df85e32afebab5ebd625c973f1a3",
+  "size": 674392,
+  "changelog": "<ul><li>A jump to the planner lands below a sticky header that sits under a banner. \"Check What Vaccines You Need\" and a link with <code>?going=&lt;country&gt;</code> put the planner's top, or its card, under such a header: on arrival the header is below the banner, so the planner did not count it. A sticky header is now measured where it sticks (its own <code>top</code>), not where it is when the page opens. Found on Chislehurst Pharmacy Group's page, 19 November 2026.</li></ul>",
   "revoked": []
 }
