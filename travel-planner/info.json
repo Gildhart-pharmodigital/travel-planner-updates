@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.8.2",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.8.2.zip",
+  "version": "1.9.0",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.9.0.zip",
   "requires": "6.0",
   "requires_php": "7.4",
-  "released": "2026-11-19",
-  "sha256": "e94f28443a1756567889a218d367fa7394cda16766f72da921cd8946ba645a73",
-  "size": 674857,
-  "changelog": "<ul><li>The whole of a vaccine's card is now the way on, not only its name. Where the pharmacy has its own page about the vaccine, a tap anywhere on the card goes there, as the name does; where it has none, a tap on the card goes to the booking. A vaccine the pharmacy does not give goes nowhere. The same in country guides. Visitors were tapping the cards and nothing happened.</li><li>A card with no page adds no words: its vaccine's name stays plain text, and the link to the booking is named for a screen reader only (\"Book a travel consultation (Rabies (pre-exposure))\").</li></ul>",
+  "released": "2026-11-20",
+  "sha256": "4dfeebf1968bfbc9da212dbac3eea9eee1569c453474c61061feb26cd500aff6",
+  "size": 675928,
+  "changelog": "<ul><li>Every price as words in the page. Below the planner, folded under \"All our travel vaccine prices\", is a list of every vaccine the pharmacy gives, its course and the price of one dose, in the same words as the cards, with the vaccine names linked as the cards link them. It is part of the page as the site sends it, so a reader that runs no script can read it. The crawlers behind ChatGPT and Claude do not run a page's scripts, and the planner draws its cards in the browser, so until now they saw the planner but none of its prices. Google, which does run scripts, now reads them twice over.</li><li>Only what the pharmacy gives; never a course's total. <code>[travel_planner prices=\"no\"]</code> leaves the list out.</li><li>The live check says how many prices the page as served lists.</li></ul>",
   "revoked": []
 }
