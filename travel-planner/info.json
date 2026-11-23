@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.10.0",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.10.0.zip",
+  "version": "1.11.0",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.11.0.zip",
   "requires": "6.0",
   "requires_php": "7.4",
   "released": "2026-11-23",
-  "sha256": "6bac630a979b1bbc81a2407eacba990f21b084bc51591b75cad7f9271ea25c47",
-  "size": 676084,
-  "changelog": "<ul><li>Every planner now says \"Powered by Gildhart\" below it, the name linked to gildhart.com (in a new tab). It is part of the page as the site sends it, small and in the planner's own quiet colour, on every client.</li></ul>",
+  "sha256": "01161135ea66232a685d73448ea0d7dd0d227d6ef828333fc3ea2dd1276e4c8f",
+  "size": 677841,
+  "changelog": "<ul><li>The price list is now a price panel. Closed, it says what it holds: \"Travel vaccine prices, 13 vaccines · from £45 a dose\", with a \"See all prices\" button in the pharmacy's own colour. Open, each vaccine's price stands out on the right (\"£65\" and, small beside it, \"a dose\"), its course is a small tag, a vaccine with its own page on the site has an arrow to it, and the list ends at \"Book a travel consultation\", as every card does. On a phone each vaccine is two lines, never a squeezed table. The same words as the cards, in the page as the site sends it: a dose's price, never a total. The \"from\" is the lowest price of one dose.</li><li>Below the planner, one line says whose guidance it is and the day it was checked against TravelHealthPro, with the Open Government Licence, and beside it \"Travel Planner by Gildhart\", linked to gildhart.com. It replaces \"Powered by Gildhart\".</li></ul>",
   "revoked": []
 }
