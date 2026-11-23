@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.9.0",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.9.0.zip",
+  "version": "1.10.0",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.10.0.zip",
   "requires": "6.0",
   "requires_php": "7.4",
-  "released": "2026-11-20",
-  "sha256": "4dfeebf1968bfbc9da212dbac3eea9eee1569c453474c61061feb26cd500aff6",
-  "size": 675928,
-  "changelog": "<ul><li>Every price as words in the page. Below the planner, folded under \"All our travel vaccine prices\", is a list of every vaccine the pharmacy gives, its course and the price of one dose, in the same words as the cards, with the vaccine names linked as the cards link them. It is part of the page as the site sends it, so a reader that runs no script can read it. The crawlers behind ChatGPT and Claude do not run a page's scripts, and the planner draws its cards in the browser, so until now they saw the planner but none of its prices. Google, which does run scripts, now reads them twice over.</li><li>Only what the pharmacy gives; never a course's total. <code>[travel_planner prices=\"no\"]</code> leaves the list out.</li><li>The live check says how many prices the page as served lists.</li></ul>",
+  "released": "2026-11-23",
+  "sha256": "6bac630a979b1bbc81a2407eacba990f21b084bc51591b75cad7f9271ea25c47",
+  "size": 676084,
+  "changelog": "<ul><li>Every planner now says \"Powered by Gildhart\" below it, the name linked to gildhart.com (in a new tab). It is part of the page as the site sends it, small and in the planner's own quiet colour, on every client.</li></ul>",
   "revoked": []
 }
