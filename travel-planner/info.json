@@ -1,13 +1,13 @@
 {
   "name": "Travel Planner by Gildhart",
   "slug": "gildhart-travel-planner",
-  "version": "1.12.0",
-  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.12.0.zip",
+  "version": "1.12.1",
+  "package": "https://raw.githubusercontent.com/Gildhart-pharmodigital/travel-planner-updates/main/travel-planner/gildhart-travel-planner-1.12.1.zip",
   "requires": "6.0",
   "requires_php": "7.4",
   "released": "2026-11-26",
-  "sha256": "56ea9fcbcf1c1fbe145170de4db0be6dfff6fd4812f39545f8c7653db313f056",
-  "size": 680251,
-  "changelog": "<ul><li>\"When do you fly?\" is now the planner's own calendar, the same in every browser and on every phone. One large button, \"Choose your flight date\", opens it; a day is one tap; the months turn with large arrows; days before today cannot be chosen. The chosen day then reads in words (\"Friday 12 June 2026\"), and the calendar can be cleared or closed. Before, it was the browser's own date field: small on a laptop, different in every browser, and opened only by its small icon, so people clicked several times before a calendar appeared.</li><li>The price list keeps its own look on every site. A site's own table styles (on Ealing: a blue band behind the headings, grey behind the vaccine names and a box round every cell) no longer reach it.</li></ul>",
+  "sha256": "daa998fbf5b641c724f60fd0c2841eca1f792f8c45c41210573c68ee54592bf0",
+  "size": 681174,
+  "changelog": "<ul><li>The calendar's month name now opens the next twelve months as a grid: a flight months away is three taps (open the calendar, its month, its day) rather than tapping \"next month\" over and over.</li><li>On a phone, the calendar now opens wholly in sight, clear of the booking bar pinned to the foot of the screen.</li><li>On a phone, the price list keeps its own layout in themes that label every table cell (on Ealing it read \"Course £45 a dose\"): no theme's labels, nothing past the panel's edge, and each price stays on one line with \"a dose\".</li></ul>",
   "revoked": []
 }

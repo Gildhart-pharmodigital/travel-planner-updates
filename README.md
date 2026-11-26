@@ -6,7 +6,7 @@ one. Nothing else lives here: the plugin's source, tests and guidance pipeline
 are Gildhart's own.
 
 <!-- latest -->
-**Latest: 1.12.0** (2026-11-26): [gildhart-travel-planner-1.12.0.zip](https://github.com/Gildhart-pharmodigital/travel-planner-updates/raw/main/travel-planner/gildhart-travel-planner-1.12.0.zip)
+**Latest: 1.12.1** (2026-11-26): [gildhart-travel-planner-1.12.1.zip](https://github.com/Gildhart-pharmodigital/travel-planner-updates/raw/main/travel-planner/gildhart-travel-planner-1.12.1.zip)
 <!-- /latest -->
 
 ## Installing it on a site
